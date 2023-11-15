@@ -2,7 +2,7 @@
 ## Overview
 This project aims to add improvement to a Kaggle fraud detection classification [competition.](https://www.kaggle.com/competitions/ieee-fraud-detection/data) 
 The following improvements include: 
-* Introducing Ensemble Learning (Stacking) to reduce bias in the model
+* Introducing Weighted Ensemble Learning (Stacking) with 3 models: XGBoost, LightGBM and CatBoost
 * Utilising SMOTE to balance the target class and evaluate the impact
 * Conduct KPrototype clustering on fraud users to get a deeper understanding on fraud users
 * Train an AutoEncoder model to detect anomalies
